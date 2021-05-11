@@ -11,6 +11,24 @@ html, body {
     color:#111 
 }
 
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    background: #f60f20;
+    color:#fff;
+    text-decoration: none;
+    padding:10px 30px;
+    margin:20px 0
+}
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+p {
+    margin:20px 0 10px;
+    font-size: 1.1rem;
+}
 .logo {
     position:absolute;
     top: 30px;
@@ -33,6 +51,11 @@ html, body {
     width: 900px
 }
 
+.home-content {
+    position: relative;
+    z-index: 10;
+    max-width: 600px;
+}
 .navigation {
     display: none;
 }
